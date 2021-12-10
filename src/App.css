@@ -1,38 +1,126 @@
-.App {
+body
+{
+  background-image: url("https://images5.alphacoders.com/111/thumb-1920-1114180.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;   /*这条必须设置 相对于viewpork固定*/
+  background-position: center center;
+}
+
+
+#UI
+{
+  font: 14px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.40); 
+  border-radius: 12px;
+  top: 35%;
+  left: 50%;
+  width: 450px;
+  padding: 0px;
+  margin: -235px 0px 0px -175px;
+  background-position: center 48%;
+}
+
+h1
+{
+  position: relative;
+  top: 60%;
+  left: 18%;
+  color: #f9a7c8;
+}
+.UIForm
+{
+    padding: 10px 0px;
+    background: none;
+    box-shadow: none;
+    margin-top: 10px;
+    border: none;
+}
+
+#UI p
+{
+  margin-bottom: 0;
+  position: relative;
+  padding: 0px 35px;
+}
+
+label
+{
+  cursor: pointer;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  display: inline-block;
+  margin-bottom: 3px;
+  color: #585858;
+}
+
+p 
+{
+  line-height: 1.5;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+input,button
+{
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 0px;
+    background: none;
+    padding: 5px 15px;
+    color: #444;
+    font-weight: normal;
+    font-size: 16px;
+    background: #FFF;
+    box-shadow: 0 0 0px 1000px white inset;
+    height: 46px;
+    border-radius: 12px;
+    margin-top: 10px;
+    line-height: 1.33333;
+    width: 100%;
+    margin: 0 6px 16px 0;
+    min-height: 40px;
+    max-height: none;
+}
+
+.submit
+{
+  padding: 0px 35px;
+  margin: 0;
+  border: none;
+  text-align: left;
+  max-width: 100%;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+button
+{
+  width: 50%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: none;
+  float: none;
+  border-radius: 12px;
+  height: 45px;
+  font-size: 16px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #FFF;
+  font-weight: normal;
+  cursor: pointer;
+  box-shadow: none;
+  text-shadow: none;
+  min-height: 32px;
+  line-height: 2.30769231;
+  padding: 0 12px;
+  background: #f9a7c8;
+  vertical-align: baseline;
+  text-decoration: none;
 }
